@@ -30,7 +30,7 @@ Clone the repository to your local machine:
 
 (```bash)
 
-- git clone (https://github.com/DavidBK999/Sportcalendar_DavidKoeberl_FE.git)
+- git clone https://github.com/DavidBK999/Sportcalendar_DavidKoeberl_FE.git
 
 ### 2. Install dependencies
 
