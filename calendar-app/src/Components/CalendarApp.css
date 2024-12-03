@@ -2,7 +2,7 @@
 .calendar-app {
   width: 100%;
   min-width: 90vmin;
-  height: 100vh;
+  height: 250vh;
   aspect-ratio: 3 / 2;
   padding: 3rem;
   display: flex;
@@ -597,7 +597,7 @@
 @media (max-width: 500px) {
   .calendar-app {
     aspect-ratio: 10 / 9;
-    height: 100%;
+    height: 100vh;
     padding-top: 150px;
 
     margin-top: 0px;
