@@ -30,14 +30,14 @@ Clone the repository to your local machine:
 
 (```bash)
 
-- git clone <repository-url>
+- git clone https://github.com/DavidBK999/Sportcalendar_DavidKoeberl_FE.git
 
 ### 2. Install dependencies
 
 Navigate to the project directory and install all necessary dependencies with npm:
 
 - cd calendar-app
-- npm install -g vite
+- npm install
 
 ### 3. Start the Vite development server
 
