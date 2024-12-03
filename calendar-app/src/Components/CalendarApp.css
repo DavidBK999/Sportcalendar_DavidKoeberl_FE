@@ -2,7 +2,7 @@
 .calendar-app {
   width: 100%;
   min-width: 90vmin;
-  height: 250vh;
+  height: 130vh;
   aspect-ratio: 3 / 2;
   padding: 3rem;
   display: flex;
@@ -508,6 +508,7 @@
     row-gap: 2rem;
     padding-top: 100px;
     width: 100%;
+    height: auto;
     border-radius: 0px;
     aspect-ratio: 3 / 2;
   }
@@ -597,9 +598,8 @@
 @media (max-width: 500px) {
   .calendar-app {
     aspect-ratio: 10 / 9;
-    height: 100vh;
+    height: 200vh;
     padding-top: 150px;
-
     margin-top: 0px;
   }
 
@@ -666,6 +666,7 @@
 }
 @media (max-width: 375px) {
   .calendar-app {
+    height: 250vh;
     aspect-ratio: 3 / 2;
   }
   .eventsOfDay {
