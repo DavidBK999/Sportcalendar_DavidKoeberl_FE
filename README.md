@@ -37,7 +37,7 @@ Clone the repository to your local machine:
 Navigate to the project directory and install all necessary dependencies with npm:
 
 - cd calendar-app
-- npm install -g vite
+- npm install
 
 ### 3. Start the Vite development server
 
