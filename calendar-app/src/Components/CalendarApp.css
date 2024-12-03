@@ -1,0 +1,674 @@
+/* Main container for the calendar app */
+.calendar-app {
+  width: 100%;
+  min-width: 90vmin;
+  height: 100vh;
+  aspect-ratio: 3 / 2;
+  padding: 3rem;
+  display: flex;
+  column-gap: 5rem;
+  position: relative;
+  transform-style: preserve-3d;
+  background: radial-gradient(
+    circle,
+    rgb(30, 33, 100) 0%,
+    rgb(27, 28, 89) 60%,
+    rgb(19, 21, 68) 100%
+  );
+  z-index: 2;
+  padding-top: 100px;
+}
+
+/* Soccer player background image */
+.soccer-player {
+  opacity: 0.05;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  transform: translateY(0%);
+  left: -20%;
+  height: auto;
+  z-index: 1;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* Calendar layout */
+.calendar {
+  width: 30%;
+  z-index: 3;
+}
+
+/* Event list for each day */
+.eventsOfDay {
+  height: 90px;
+  margin-left: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  h3 {
+    color: rgb(179, 181, 210);
+    font-weight: 100;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  li {
+    font-size: 13px;
+    width: auto;
+    color: white;
+    cursor: pointer;
+    list-style: none;
+  }
+}
+
+.heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(4rem, 3.8cqi, 7rem);
+  color: #fff;
+  letter-spacing: 0.3rem;
+}
+
+/* Navigation buttons */
+.navigate-date {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin: 3.5rem 0;
+}
+
+.navigate-date h2 {
+  font-size: clamp(1.5rem, 1.5cqi, 2.5rem);
+  color: #bbb;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 1rem;
+  margin-left: auto;
+}
+
+.buttons i {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #9fc3c8;
+  cursor: pointer;
+}
+
+.buttons i:hover {
+  transition: 0.5s;
+  background-color: #92a7c52b;
+}
+
+/* Weekdays display */
+.weekdays {
+  width: 100%;
+  display: flex;
+  margin: 3rem 0;
+}
+
+/* Days of the month */
+.weekdays span {
+  padding-left: 1.3rem;
+  width: calc(100% / 7);
+  font-size: clamp(1.2rem, 0.8cqi, 1.3rem);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #cdcdcdab;
+  letter-spacing: 0.1rem;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* Marked days with events */
+.marked-day {
+  background-size: 28px 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(177, 160, 160);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Event count on marked days */
+.event-count {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: rgba(177, 181, 210, 0.151);
+  color: white;
+  font-size: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days span {
+  font-size: clamp(2rem, 1cqi, 1.6rem);
+  width: calc(100% / 7);
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+  cursor: pointer;
+  text-shadow: 0 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.days span:hover {
+  background-color: rgba(255, 255, 255, 0.079);
+  border-radius: 50%;
+  transition: 0.01s;
+  z-index: 10000;
+}
+
+.current-day {
+  background-color: rgba(79, 49, 49, 0.042);
+  border-radius: 50%;
+  box-shadow: 0 0 1rem 0.1rem rgba(255, 255, 255, 0.105);
+}
+
+/* Pop-up overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Event popup style */
+.popup {
+  background: white;
+
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background: #0056b3;
+}
+
+/* Filter bar for events */
+.filter {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100%;
+  margin: 20px 0;
+}
+
+.filter input,
+.filter select {
+  box-shadow: 1rem 0.5rem 3rem rgba(0, 0, 0, 0.082);
+  padding: 5px 10px;
+  margin: 0 10px 15px 0;
+  font-size: 1em;
+}
+
+.filter input {
+  border-radius: 0.5rem;
+}
+
+.filter select {
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  padding: 1.5rem 2.5rem;
+  background-color: rgb(3, 0, 67);
+}
+
+/* Event display area */
+.events {
+  width: 65%;
+  height: 95%;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+.events::-webkit-scrollbar {
+  display: none;
+}
+
+.event-popup {
+  position: absolute;
+  z-index: 111;
+  top: 38%;
+  left: 3rem;
+  width: clamp(25rem, 21cqi, 40rem);
+  aspect-ratio: 10 / 9;
+  background: rgb(12, 12, 54);
+  border: 0.1rem solid rgb(5, 5, 48);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+  top: 45%;
+  z-index: 999999;
+  height: auto;
+  padding: 4rem 1rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  color: white;
+  aspect-ratio: 4 / 3;
+  row-gap: 1rem;
+}
+.time-input {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.event-popup-time {
+  width: clamp(4rem, 4cqi, 7rem);
+  background-color: rgb(28, 30, 89);
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(1.5rem, 1.5cqi, 2.2rem);
+  display: flex;
+  box-shadow: 0 0 25px 12px rgba(0, 0, 0, 0.077);
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1rem;
+}
+.time-input input {
+  background-color: transparent;
+  border: none;
+  border-top: 0.2rem solid rgb(28, 30, 89);
+  border-bottom: 0.2rem solid rgb(28, 30, 89);
+  color: #fff;
+  width: clamp(4rem, 4cqi, 7rem);
+  height: 4rem;
+  text-align: center;
+  font-size: clamp(1.2rem, 1.2cqi, 1.6rem);
+}
+.time-input input[type="number"]::-webkit-outer-spin-button,
+.time-input input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.event-popup textarea {
+  width: clamp(15rem, 15cqi, 25rem);
+  aspect-ratio: 5 / 2;
+  resize: none;
+  background-color: #e7ecf1;
+  box-shadow: inset 0 0 15px 5px rgba(0, 0, 0, 0.153);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #0b1320;
+  transition: border 0.5s;
+}
+.event-popup textarea:focus {
+  border: 0.1rem solid rgb(28, 30, 89);
+}
+.event-popup textarea::placeholder {
+  font-size: clamp(1rem, 0.8cqi, 1.2rem);
+  color: #78879e;
+}
+
+.event-popup textarea:focus::placeholder {
+  color: transparent;
+}
+.event-popup-btn {
+  width: clamp(15rem, 15cqi, 25rem);
+  height: 4rem;
+  background-color: #e51f23;
+  color: #fff;
+  border-radius: 3rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(1.5rem, 1.5cqi, 2.2rem);
+  letter-spacing: 0.1rem;
+  border: none;
+  cursor: pointer;
+}
+.event-popup-btn:active {
+  transform: translateY(0.1rem);
+}
+.close-event-popup {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.close-event-popup i {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.event {
+  width: 100%;
+  height: 7rem;
+  background-color: rgba(34, 174, 182, 0.293);
+  padding: 1.5rem 0.5rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: relative;
+  box-shadow: inset 0 0 12px 7px rgba(255, 255, 255, 0.118);
+}
+
+.event-date-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin-right: 1rem;
+  border-right: 0.1rem solid rgba(193, 193, 193, 0.5);
+}
+
+.event-date {
+  font-size: clamp(1rem, 1cqi, 1.2rem);
+  color: #ddd;
+}
+
+.event-time {
+  font-size: clamp(1.3rem, 1cqi, 1.6rem);
+  line-height: 4rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.event-teams {
+  min-width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-team1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 30%;
+}
+
+.event-team2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 35%;
+}
+
+.event-versus {
+  position: absolute;
+  font-weight: 900;
+  color: white;
+  margin-left: 28%;
+}
+
+.event-text {
+  font-size: clamp(1.2rem, 1cqi, 1.4rem);
+  line-height: 2rem;
+  color: #fff;
+  padding: 0 2rem 0 1rem;
+  overflow-wrap: break-word;
+  align-self: center;
+}
+
+.event-soccer-icon {
+  width: 25px;
+  height: 25px;
+  align-self: center;
+}
+
+/* Event details button */
+.event-details {
+  background-image: url(./public/images/info.png);
+  cursor: pointer;
+  width: 100px;
+  img {
+    width: 50px;
+    padding-right: 10px;
+  }
+}
+
+.event-details:hover {
+  font-weight: 900;
+  scale: 1.03;
+  transition: 0.4s;
+}
+
+/* Event hover popup */
+.hover-popup {
+  position: absolute;
+  background-color: rgb(11, 14, 36);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  top: -70px;
+  left: 50%;
+  width: 100px;
+  transform: translateX(-50%);
+  z-index: 9000000;
+}
+
+/* Event action buttons */
+.event-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.event-buttons i {
+  font-size: 2.2rem;
+  color: #212125;
+  cursor: pointer;
+}
+
+/* Media query adjustments for responsiveness */
+@media (max-width: 991px) {
+  .calendar-app {
+    flex-direction: column;
+    row-gap: 2rem;
+    padding-top: 100px;
+    width: 100%;
+    border-radius: 0px;
+    aspect-ratio: 3 / 2;
+  }
+  .calendar {
+    width: 90%;
+    margin: auto;
+  }
+  .eventsOfDay {
+    display: none;
+  }
+
+  .navigate-date {
+    margin: 1rem;
+  }
+  .weekdays {
+    margin: 1rem 0;
+  }
+  .filter {
+    width: 100%;
+    justify-content: center;
+    margin: 0px;
+    gap: 0;
+  }
+
+  .filter input,
+  .filter select {
+    box-shadow: 1rem 0.5rem 3rem rgba(0, 0, 0, 0.082);
+    padding: 5px 2px;
+    margin: 0 10px 15px 0;
+    font-size: 1em;
+    width: 95px;
+    gap: 0;
+  }
+  .events {
+    width: 100%;
+    margin: auto;
+    padding: 1rem 0;
+  }
+  .event-popup {
+    top: 45%;
+    z-index: 999999;
+    height: auto;
+    padding: 4rem 1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    color: white;
+    aspect-ratio: 4 / 3;
+    row-gap: 1rem;
+  }
+  .event-popup-time {
+    width: clamp(5rem, 10cqi, 8rem);
+    font-size: clamp(1.5rem, 3cqi, 2.2rem);
+  }
+
+  .time-input input {
+    width: clamp(5rem, 10cqi, 8rem);
+    font-size: clamp(1.2rem, 2cqi, 1.6rem);
+  }
+
+  .event-popup textarea {
+    width: clamp(18rem, 35cqi, 28rem);
+  }
+  .placeholder {
+    font-size: clamp(1rem, 1.5cqi, 1.2rem);
+  }
+  .event-popup-btn {
+    width: clamp(18rem, 35cqi, 28rem);
+    font-size: clamp(1.5rem, 3cqi, 2.2rem);
+  }
+
+  .event-date {
+    font-size: clamp(1rem, 1.4cqi, 1.2rem);
+  }
+  .event-time {
+    font-size: clamp(1rem, 2cqi, 1.6rem);
+  }
+  .event-text {
+    font-size: clamp(1rem, 2.5cqi, 1.4rem);
+  }
+
+  .event-soccer-icon {
+    width: 30px;
+    padding: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .calendar-app {
+    aspect-ratio: 10 / 9;
+    height: 100%;
+    padding-top: 150px;
+
+    margin-top: 0px;
+  }
+
+  .filter {
+    width: 100%;
+    justify-content: center;
+    margin: 0px;
+    gap: 0;
+  }
+
+  .filter input,
+  .filter select {
+    box-shadow: 1rem 0.5rem 3rem rgba(0, 0, 0, 0.082);
+    padding: 5px 2px;
+    margin: 0 10px 15px 0;
+    font-size: 1em;
+    width: 65px;
+    gap: 0;
+  }
+
+  .calendar {
+    width: 100%;
+  }
+
+  .eventsOfDay {
+    display: none;
+  }
+
+  .event-popup {
+    top: 23%;
+    width: 80%;
+  }
+
+  .events {
+    width: 100%;
+  }
+
+  .event-teams {
+    width: 60%;
+  }
+
+  .event-team1 {
+    width: auto;
+  }
+  .event-team2 {
+    width: auto;
+  }
+
+  .event-date-wrapper {
+    width: 15%;
+  }
+
+  .event-text {
+    line-height: 1.2rem;
+    padding: 0 0rem 0 0rem;
+  }
+
+  .event-soccer-icon {
+    display: none;
+  }
+  .event-details {
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 375px) {
+  .calendar-app {
+    aspect-ratio: 3 / 2;
+  }
+  .eventsOfDay {
+    display: none;
+  }
+}

@@ -1,0 +1,2338 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "season": 2025,
+      "status": "played",
+      "timeVenueUTC": "00:00:00",
+      "dateVenue": "2024-11-03",
+      "stadium": null,
+      "homeTeam": {
+        "name": "Al Shabab",
+        "officialName": "Al Shabab FC",
+        "slug": "al-shabab-fc",
+        "abbreviation": "SHA",
+        "teamCountryCode": "KSA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Nasaf",
+        "officialName": "FC Nasaf",
+        "slug": "fc-nasaf-qarshi",
+        "abbreviation": "NAS",
+        "teamCountryCode": "UZB",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 2,
+        "winner": "Nasaf",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "ROUND OF 16",
+        "name": "ROUND OF 16",
+        "ordering": 4
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 2,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "16:00:00",
+      "dateVenue": "2024-11-03",
+      "stadium": null,
+      "homeTeam": {
+        "name": "Al Hilal",
+        "officialName": "Al Hilal Saudi FC",
+        "slug": "al-hilal-saudi-fc",
+        "abbreviation": "HIL",
+        "teamCountryCode": "KSA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Shabab Al Ahli",
+        "officialName": "SHABAB AL AHLI DUBAI",
+        "slug": "shabab-al-ahli-club",
+        "abbreviation": "SAH",
+        "teamCountryCode": "UAE",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null,
+        "winnerId": null,
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": [],
+        "scoreByPeriods": null
+      },
+      "stage": {
+        "id": "ROUND OF 16",
+        "name": "ROUND OF 16",
+        "ordering": 4
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 3,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "15:25:00",
+      "dateVenue": "2024-11-04",
+      "stadium": null,
+      "homeTeam": {
+        "name": "Al Duhail",
+        "officialName": "AL DUHAIL SC",
+        "slug": "al-duhail-sc",
+        "abbreviation": "DUH",
+        "teamCountryCode": "QAT",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Al Rayyan",
+        "officialName": "AL RAYYAN SC",
+        "slug": "al-rayyan-sc",
+        "abbreviation": "RYN",
+        "teamCountryCode": "QAT",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null,
+        "winnerId": null,
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": [],
+        "scoreByPeriods": null
+      },
+      "stage": {
+        "id": "ROUND OF 16",
+        "name": "ROUND OF 16",
+        "ordering": 4
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 4,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "08:00:00",
+      "dateVenue": "2024-11-04",
+      "stadium": null,
+      "homeTeam": {
+        "name": "Al Faisaly",
+        "officialName": "Al Faisaly FC",
+        "slug": "al-faisaly-fc",
+        "abbreviation": "FAI",
+        "teamCountryCode": "KSA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Foolad",
+        "officialName": "FOOLAD KHOUZESTAN FC",
+        "slug": "foolad-khuzestan-fc",
+        "abbreviation": "FLD",
+        "teamCountryCode": "IRN",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null,
+        "winnerId": null,
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": [],
+        "scoreByPeriods": null
+      },
+      "stage": {
+        "id": "ROUND OF 16",
+        "name": "ROUND OF 16",
+        "ordering": 4
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 5,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "00:00:00",
+      "dateVenue": "2024-11-19",
+      "stadium": null,
+      "homeTeam": null,
+      "awayTeam": {
+        "name": "Urawa Reds",
+        "officialName": "Urawa Red Diamonds",
+        "slug": "urawa-red-diamonds",
+        "abbreviation": "RED",
+        "teamCountryCode": "JPN",
+        "stagePosition": null
+      },
+      "result": null,
+      "stage": {
+        "id": "FINAL",
+        "name": "FINAL",
+        "ordering": 7
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 6,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "12:00:00",
+      "dateVenue": "2024-12-05",
+      "stadium": null,
+      "homeTeam": {
+        "name": "Esteghlal",
+        "officialName": "Esteghlal FC",
+        "slug": "esteghlal-fc",
+        "abbreviation": "EST",
+        "teamCountryCode": "IRN",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Persepolis",
+        "officialName": "Persepolis FC",
+        "slug": "persepolis-fc",
+        "abbreviation": "PER",
+        "teamCountryCode": "IRN",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null,
+        "winnerId": null,
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": [],
+        "scoreByPeriods": null
+      },
+      "stage": {
+        "id": "ROUND OF 16",
+        "name": "ROUND OF 16",
+        "ordering": 4
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 7,
+      "season": 2025,
+      "status": "played",
+      "timeVenueUTC": "20:00:00",
+      "dateVenue": "2024-02-06",
+      "stadium": "Azadi Stadium",
+      "homeTeam": {
+        "name": "Al Ahli",
+        "officialName": "Al Ahli SC",
+        "slug": "al-ahli-sc",
+        "abbreviation": "AHI",
+        "teamCountryCode": "KSA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Al Nassr",
+        "officialName": "Al Nassr FC",
+        "slug": "al-nassr-fc",
+        "abbreviation": "NAS",
+        "teamCountryCode": "KSA",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 3,
+        "winner": "Al Nassr",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "ROUND OF 16",
+        "name": "ROUND OF 16",
+        "ordering": 5
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 8,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "12:00:00",
+      "dateVenue": "2024-11-05",
+      "stadium": null,
+      "homeTeam": {
+        "name": "Al Nassr",
+        "officialName": "Al Nassr FC",
+        "slug": "al-nassr-fc",
+        "abbreviation": "NAS",
+        "teamCountryCode": "KSA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Al Ahli",
+        "officialName": "Al Ahli Saudi FC",
+        "slug": "al-ahli-fc",
+        "abbreviation": "AHI",
+        "teamCountryCode": "KSA",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null,
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "ROUND OF 16",
+        "name": "ROUND OF 16",
+        "ordering": 5
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 9,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "20:00:00",
+      "dateVenue": "2024-11-06",
+      "stadium": null,
+      "homeTeam": {
+        "name": "Al Ittihad",
+        "officialName": "Al Ittihad FC",
+        "slug": "al-ittihad-fc",
+        "abbreviation": "ITT",
+        "teamCountryCode": "KSA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Persepolis",
+        "officialName": "Persepolis FC",
+        "slug": "persepolis-fc",
+        "abbreviation": "PER",
+        "teamCountryCode": "IRN",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "winner": "Al Ittihad",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "ROUND OF 16",
+        "name": "ROUND OF 16",
+        "ordering": 6
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 10,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "18:30:00",
+      "dateVenue": "2024-08-07",
+      "stadium": null,
+      "homeTeam": {
+        "name": "Al Duhail",
+        "officialName": "Al Duhail SC",
+        "slug": "al-duhail-sc",
+        "abbreviation": "DUH",
+        "teamCountryCode": "QAT",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Al Ahli",
+        "officialName": "Al Ahli SC",
+        "slug": "al-ahli-sc",
+        "abbreviation": "AHL",
+        "teamCountryCode": "QAT",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 3,
+        "awayGoals": 0,
+        "winner": "Al Duhail",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "ROUND OF 16",
+        "name": "ROUND OF 16",
+        "ordering": 7
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 11,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "14:00:00",
+      "dateVenue": "2024-11-08",
+      "stadium": null,
+      "homeTeam": {
+        "name": "Al Hilal",
+        "officialName": "Al Hilal Saudi FC",
+        "slug": "al-hilal-saudi-fc",
+        "abbreviation": "HIL",
+        "teamCountryCode": "KSA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Shabab Al Ahli",
+        "officialName": "Shabab Al Ahli Club",
+        "slug": "shabab-al-ahli-club",
+        "abbreviation": "SAH",
+        "teamCountryCode": "UAE",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 1,
+        "winner": null,
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "ROUND OF 16",
+        "name": "ROUND OF 16",
+        "ordering": 8
+      },
+      "group": null,
+      "originCompetitionId": "afc-champions-league",
+      "originCompetitionName": "AFC Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 12,
+      "season": 2025,
+      "status": "played",
+      "timeVenueUTC": "13:00:00",
+      "dateVenue": "2024-09-05",
+      "stadium": "Madison Square Garden",
+      "homeTeam": {
+        "name": "New York Knicks",
+        "officialName": "New York Knicks",
+        "slug": "new-york-knicks",
+        "abbreviation": "NYK",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Los Angeles Lakers",
+        "officialName": "Los Angeles Lakers",
+        "slug": "los-angeles-lakers",
+        "abbreviation": "LAL",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 112,
+        "awayGoals": 105,
+        "winner": "New York Knicks",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "REGULAR SEASON",
+        "name": "NBA Regular Season",
+        "ordering": 1
+      },
+      "group": null,
+      "originCompetitionId": "nba",
+      "originCompetitionName": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "id": 13,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "18:00:00",
+      "dateVenue": "2024-09-12",
+      "stadium": "Allianz Arena",
+      "homeTeam": {
+        "name": "Bayern Munich",
+        "officialName": "FC Bayern Munich",
+        "slug": "fc-bayern-munich",
+        "abbreviation": "BAY",
+        "teamCountryCode": "DEU",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Real Madrid",
+        "officialName": "Real Madrid CF",
+        "slug": "real-madrid-cf",
+        "abbreviation": "RM",
+        "teamCountryCode": "ESP",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 3,
+        "awayGoals": 1,
+        "winner": "Bayern Munich",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "GROUP STAGE",
+        "name": "UEFA Champions League Group Stage",
+        "ordering": 2
+      },
+      "group": null,
+      "originCompetitionId": "uefa-champions-league",
+      "originCompetitionName": "UEFA Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 14,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "21:00:00",
+      "dateVenue": "2024-12-03",
+      "stadium": "Arthur Ashe Stadium",
+      "homeTeam": {
+        "name": "Serena Williams",
+        "officialName": "Serena Williams",
+        "slug": "serena-williams",
+        "abbreviation": "SW",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Naomi Osaka",
+        "officialName": "Naomi Osaka",
+        "slug": "naomi-osaka",
+        "abbreviation": "NO",
+        "teamCountryCode": "JPN",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 6,
+        "awayGoals": 4,
+        "winner": "Serena Williams",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "FINALS",
+        "name": "US Open Women’s Singles Final",
+        "ordering": 3
+      },
+      "group": null,
+      "originCompetitionId": "us-open",
+      "originCompetitionName": "US Open Tennis",
+      "sport": "tennis"
+    },
+    {
+      "id": 15,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "11:00:00",
+      "dateVenue": "2024-10-08",
+      "stadium": "Circuit de Monaco",
+      "homeTeam": {
+        "name": "Max Verstappen",
+        "officialName": "Max Verstappen",
+        "slug": "max-verstappen",
+        "abbreviation": "MV",
+        "teamCountryCode": "NLD",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Lewis Hamilton",
+        "officialName": "Lewis Hamilton",
+        "slug": "lewis-hamilton",
+        "abbreviation": "LH",
+        "teamCountryCode": "GBR",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": "Max Verstappen",
+        "message": "Verstappen takes pole position in Monaco Grand Prix",
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "QUALIFYING",
+        "name": "Formula 1 Monaco Grand Prix Qualifying",
+        "ordering": 4
+      },
+      "group": null,
+      "originCompetitionId": "formula-1",
+      "originCompetitionName": "Formula 1",
+      "sport": "motorsport"
+    },
+    {
+      "id": 16,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "08:00:00",
+      "dateVenue": "2025-01-10",
+      "stadium": "Melbourne Arena",
+      "homeTeam": {
+        "name": "Ash Barty",
+        "officialName": "Ash Barty",
+        "slug": "ash-barty",
+        "abbreviation": "AB",
+        "teamCountryCode": "AUS",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Simona Halep",
+        "officialName": "Simona Halep",
+        "slug": "simona-halep",
+        "abbreviation": "SH",
+        "teamCountryCode": "ROU",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "winner": "Ash Barty",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "FINAL",
+        "name": "Australian Open Women’s Singles Final",
+        "ordering": 5
+      },
+      "group": null,
+      "originCompetitionId": "australian-open",
+      "originCompetitionName": "Australian Open Tennis",
+      "sport": "tennis"
+    },
+    {
+      "id": 17,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "22:00:00",
+      "dateVenue": "2025-03-15",
+      "stadium": "Wimbledon Stadium",
+      "homeTeam": {
+        "name": "Roger Federer",
+        "officialName": "Roger Federer",
+        "slug": "roger-federer",
+        "abbreviation": "RF",
+        "teamCountryCode": "CHE",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Novak Djokovic",
+        "officialName": "Novak Djokovic",
+        "slug": "novak-djokovic",
+        "abbreviation": "ND",
+        "teamCountryCode": "SRB",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 3,
+        "awayGoals": 2,
+        "winner": "Roger Federer",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "FINAL",
+        "name": "Wimbledon Men’s Singles Final",
+        "ordering": 6
+      },
+      "group": null,
+      "originCompetitionId": "wimbledon",
+      "originCompetitionName": "Wimbledon",
+      "sport": "tennis"
+    },
+    {
+      "id": 18,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "14:30:00",
+      "dateVenue": "2024-11-15",
+      "stadium": "Camp Nou",
+      "homeTeam": {
+        "name": "FC Barcelona",
+        "officialName": "FC Barcelona",
+        "slug": "fc-barcelona",
+        "abbreviation": "BAR",
+        "teamCountryCode": "ESP",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Juventus",
+        "officialName": "Juventus FC",
+        "slug": "juventus-fc",
+        "abbreviation": "JUV",
+        "teamCountryCode": "ITA",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 4,
+        "awayGoals": 2,
+        "winner": "FC Barcelona",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "GROUP STAGE",
+        "name": "UEFA Champions League Group Stage",
+        "ordering": 7
+      },
+      "group": null,
+      "originCompetitionId": "uefa-champions-league",
+      "originCompetitionName": "UEFA Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 19,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "19:00:00",
+      "dateVenue": "2024-12-23",
+      "stadium": "Old Trafford",
+      "homeTeam": {
+        "name": "Manchester United",
+        "officialName": "Manchester United FC",
+        "slug": "manchester-united-fc",
+        "abbreviation": "MU",
+        "teamCountryCode": "GBR",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Arsenal",
+        "officialName": "Arsenal FC",
+        "slug": "arsenal-fc",
+        "abbreviation": "ARS",
+        "teamCountryCode": "GBR",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 1,
+        "winner": null,
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "PREMIER LEAGUE",
+        "name": "English Premier League",
+        "ordering": 8
+      },
+      "group": null,
+      "originCompetitionId": "english-premier-league",
+      "originCompetitionName": "Premier League",
+      "sport": "football"
+    },
+    {
+      "id": 20,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "23:00:00",
+      "dateVenue": "2024-03-09",
+      "stadium": "Yankee Stadium",
+      "homeTeam": {
+        "name": "New York Yankees",
+        "officialName": "New York Yankees",
+        "slug": "new-york-yankees",
+        "abbreviation": "NYY",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Los Angeles Dodgers",
+        "officialName": "Los Angeles Dodgers",
+        "slug": "los-angeles-dodgers",
+        "abbreviation": "LAD",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 5,
+        "awayGoals": 3,
+        "winner": "New York Yankees",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "WORLD SERIES",
+        "name": "MLB World Series",
+        "ordering": 9
+      },
+      "group": null,
+      "originCompetitionId": "mlb",
+      "originCompetitionName": "Major League Baseball",
+      "sport": "baseball"
+    },
+    {
+      "id": 21,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "16:00:00",
+      "dateVenue": "2024-12-05",
+      "stadium": "Mercedes-Benz Arena",
+      "homeTeam": {
+        "name": "Boston Celtics",
+        "officialName": "Boston Celtics",
+        "slug": "boston-celtics",
+        "abbreviation": "BOS",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Miami Heat",
+        "officialName": "Miami Heat",
+        "slug": "miami-heat",
+        "abbreviation": "MIA",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 118,
+        "awayGoals": 105,
+        "winner": "Boston Celtics",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "REGULAR SEASON",
+        "name": "NBA Regular Season",
+        "ordering": 10
+      },
+      "group": null,
+      "originCompetitionId": "nba",
+      "originCompetitionName": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "id": 22,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "20:00:00",
+      "dateVenue": "2024-12-12",
+      "stadium": "Stade de France",
+      "homeTeam": {
+        "name": "Paris Saint-Germain",
+        "officialName": "Paris Saint-Germain FC",
+        "slug": "paris-saint-germain",
+        "abbreviation": "PSG",
+        "teamCountryCode": "FRA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Bayern Munich",
+        "officialName": "FC Bayern Munich",
+        "slug": "fc-bayern-munich",
+        "abbreviation": "BAY",
+        "teamCountryCode": "DEU",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 3,
+        "awayGoals": 2,
+        "winner": "Paris Saint-Germain",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "CHAMPIONS LEAGUE FINAL",
+        "name": "UEFA Champions League Final",
+        "ordering": 11
+      },
+      "group": null,
+      "originCompetitionId": "uefa-champions-league",
+      "originCompetitionName": "UEFA Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 23,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "17:30:00",
+      "dateVenue": "2025-01-03",
+      "stadium": "Rod Laver Arena",
+      "homeTeam": {
+        "name": "Novak Djokovic",
+        "officialName": "Novak Djokovic",
+        "slug": "novak-djokovic",
+        "abbreviation": "ND",
+        "teamCountryCode": "SRB",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Andy Murray",
+        "officialName": "Andy Murray",
+        "slug": "andy-murray",
+        "abbreviation": "AM",
+        "teamCountryCode": "GBR",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 6,
+        "awayGoals": 4,
+        "winner": "Novak Djokovic",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "AUSTRALIAN OPEN",
+        "name": "Australian Open Men's Singles Quarterfinals",
+        "ordering": 12
+      },
+      "group": null,
+      "originCompetitionId": "australian-open",
+      "originCompetitionName": "Australian Open",
+      "sport": "tennis"
+    },
+    {
+      "id": 24,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "10:00:00",
+      "dateVenue": "2025-02-10",
+      "stadium": "MTS Centre",
+      "homeTeam": {
+        "name": "Winnipeg Jets",
+        "officialName": "Winnipeg Jets",
+        "slug": "winnipeg-jets",
+        "abbreviation": "WPG",
+        "teamCountryCode": "CAN",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Toronto Maple Leafs",
+        "officialName": "Toronto Maple Leafs",
+        "slug": "toronto-maple-leafs",
+        "abbreviation": "TOR",
+        "teamCountryCode": "CAN",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 3,
+        "awayGoals": 2,
+        "winner": "Winnipeg Jets",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "NHL",
+        "name": "NHL Regular Season",
+        "ordering": 13
+      },
+      "group": null,
+      "originCompetitionId": "nhl",
+      "originCompetitionName": "NHL",
+      "sport": "hockey"
+    },
+    {
+      "id": 25,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "18:00:00",
+      "dateVenue": "2024-11-20",
+      "stadium": "Milan Cathedral",
+      "homeTeam": {
+        "name": "AC Milan",
+        "officialName": "AC Milan",
+        "slug": "ac-milan",
+        "abbreviation": "MIL",
+        "teamCountryCode": "ITA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Real Madrid",
+        "officialName": "Real Madrid CF",
+        "slug": "real-madrid-cf",
+        "abbreviation": "RM",
+        "teamCountryCode": "ESP",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 3,
+        "winner": "Real Madrid",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "GROUP STAGE",
+        "name": "UEFA Champions League Group Stage",
+        "ordering": 15
+      },
+      "group": null,
+      "originCompetitionId": "uefa-champions-league",
+      "originCompetitionName": "UEFA Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 26,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "15:30:00",
+      "dateVenue": "2024-12-21",
+      "stadium": "Madison Square Garden",
+      "homeTeam": {
+        "name": "New York Knicks",
+        "officialName": "New York Knicks",
+        "slug": "new-york-knicks",
+        "abbreviation": "NYK",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Golden State Warriors",
+        "officialName": "Golden State Warriors",
+        "slug": "golden-state-warriors",
+        "abbreviation": "GSW",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 110,
+        "awayGoals": 105,
+        "winner": "New York Knicks",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "REGULAR SEASON",
+        "name": "NBA Regular Season",
+        "ordering": 16
+      },
+      "group": null,
+      "originCompetitionId": "nba",
+      "originCompetitionName": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "id": 27,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "14:00:00",
+      "dateVenue": "2024-12-10",
+      "stadium": "Sydney Olympic Park",
+      "homeTeam": {
+        "name": "Sydney FC",
+        "officialName": "Sydney Football Club",
+        "slug": "sydney-fc",
+        "abbreviation": "SYD",
+        "teamCountryCode": "AUS",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Melbourne City FC",
+        "officialName": "Melbourne City Football Club",
+        "slug": "melbourne-city-fc",
+        "abbreviation": "MEL",
+        "teamCountryCode": "AUS",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 3,
+        "awayGoals": 1,
+        "winner": "Sydney FC",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "A-LEAGUE",
+        "name": "A-League Regular Season",
+        "ordering": 17
+      },
+      "group": null,
+      "originCompetitionId": "a-league",
+      "originCompetitionName": "A-League",
+      "sport": "football"
+    },
+    {
+      "id": 28,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "13:00:00",
+      "dateVenue": "2024-10-15",
+      "stadium": "Rod Laver Arena",
+      "homeTeam": {
+        "name": "Ashleigh Barty",
+        "officialName": "Ashleigh Barty",
+        "slug": "ashleigh-barty",
+        "abbreviation": "AB",
+        "teamCountryCode": "AUS",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Simona Halep",
+        "officialName": "Simona Halep",
+        "slug": "simona-halep",
+        "abbreviation": "SH",
+        "teamCountryCode": "ROU",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "winner": "Ashleigh Barty",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "AUSTRALIAN OPEN",
+        "name": "Australian Open Women's Singles Final",
+        "ordering": 18
+      },
+      "group": null,
+      "originCompetitionId": "australian-open-women",
+      "originCompetitionName": "Australian Open",
+      "sport": "tennis"
+    },
+    {
+      "id": 29,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "09:00:00",
+      "dateVenue": "2025-01-04",
+      "stadium": "Winter Olympics Stadium",
+      "homeTeam": {
+        "name": "Norway",
+        "officialName": "Norwegian National Hockey Team",
+        "slug": "norway-hockey",
+        "abbreviation": "NOR",
+        "teamCountryCode": "NOR",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Canada",
+        "officialName": "Canadian National Hockey Team",
+        "slug": "canada-hockey",
+        "abbreviation": "CAN",
+        "teamCountryCode": "CAN",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 4,
+        "awayGoals": 3,
+        "winner": "Norway",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "WINTER OLYMPICS",
+        "name": "Winter Olympics Ice Hockey Final",
+        "ordering": 19
+      },
+      "group": null,
+      "originCompetitionId": "winter-olympics-ice-hockey",
+      "originCompetitionName": "Winter Olympics",
+      "sport": "ice hockey"
+    },
+    {
+      "id": 30,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "21:00:00",
+      "dateVenue": "2025-01-10",
+      "stadium": "Tokyo Dome",
+      "homeTeam": {
+        "name": "Yokohama F. Marinos",
+        "officialName": "Yokohama F. Marinos",
+        "slug": "yokohama-f-marinos",
+        "abbreviation": "YFM",
+        "teamCountryCode": "JPN",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Vissel Kobe",
+        "officialName": "Vissel Kobe",
+        "slug": "vissel-kobe",
+        "abbreviation": "VIS",
+        "teamCountryCode": "JPN",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 2,
+        "winner": null,
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "J-LEAGUE",
+        "name": "J-League Final",
+        "ordering": 20
+      },
+      "group": null,
+      "originCompetitionId": "j-league",
+      "originCompetitionName": "J-League",
+      "sport": "football"
+    },
+    {
+      "id": 31,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "17:00:00",
+      "dateVenue": "2024-11-21",
+      "stadium": "Stamford Bridge",
+      "homeTeam": {
+        "name": "Chelsea",
+        "officialName": "Chelsea Football Club",
+        "slug": "chelsea-fc",
+        "abbreviation": "CHE",
+        "teamCountryCode": "ENG",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Bayern Munich",
+        "officialName": "FC Bayern Munich",
+        "slug": "bayern-munich",
+        "abbreviation": "BAY",
+        "teamCountryCode": "DEU",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 2,
+        "winner": "Bayern Munich",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "GROUP STAGE",
+        "name": "UEFA Champions League Group Stage",
+        "ordering": 21
+      },
+      "group": null,
+      "originCompetitionId": "uefa-champions-league",
+      "originCompetitionName": "UEFA Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 32,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "19:30:00",
+      "dateVenue": "2024-11-22",
+      "stadium": "Anfield",
+      "homeTeam": {
+        "name": "Liverpool",
+        "officialName": "Liverpool Football Club",
+        "slug": "liverpool-fc",
+        "abbreviation": "LIV",
+        "teamCountryCode": "ENG",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Juventus",
+        "officialName": "Juventus Football Club",
+        "slug": "juventus-fc",
+        "abbreviation": "JUV",
+        "teamCountryCode": "ITA",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "winner": "Liverpool",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "GROUP STAGE",
+        "name": "UEFA Champions League Group Stage",
+        "ordering": 22
+      },
+      "group": null,
+      "originCompetitionId": "uefa-champions-league",
+      "originCompetitionName": "UEFA Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 33,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "20:00:00",
+      "dateVenue": "2024-11-23",
+      "stadium": "Parc des Princes",
+      "homeTeam": {
+        "name": "Paris Saint-Germain",
+        "officialName": "Paris Saint-Germain F.C.",
+        "slug": "psg",
+        "abbreviation": "PSG",
+        "teamCountryCode": "FRA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Manchester City",
+        "officialName": "Manchester City Football Club",
+        "slug": "manchester-city-fc",
+        "abbreviation": "MCI",
+        "teamCountryCode": "ENG",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 2,
+        "winner": "Manchester City",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "GROUP STAGE",
+        "name": "UEFA Champions League Group Stage",
+        "ordering": 23
+      },
+      "group": null,
+      "originCompetitionId": "uefa-champions-league",
+      "originCompetitionName": "UEFA Champions League",
+      "sport": "football"
+    },
+    {
+      "id": 34,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "13:00:00",
+      "dateVenue": "2024-11-24",
+      "stadium": "SoFi Stadium",
+      "homeTeam": {
+        "name": "Los Angeles Rams",
+        "officialName": "Los Angeles Rams",
+        "slug": "los-angeles-rams",
+        "abbreviation": "LAR",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Dallas Cowboys",
+        "officialName": "Dallas Cowboys",
+        "slug": "dallas-cowboys",
+        "abbreviation": "DAL",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 28,
+        "awayGoals": 35,
+        "winner": "Dallas Cowboys",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "NFL REGULAR SEASON",
+        "name": "NFL Regular Season",
+        "ordering": 24
+      },
+      "group": null,
+      "originCompetitionId": "nfl",
+      "originCompetitionName": "NFL",
+      "sport": "american football"
+    },
+    {
+      "id": 35,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "17:45:00",
+      "dateVenue": "2024-10-01",
+      "stadium": "Wembley Stadium",
+      "homeTeam": {
+        "name": "England",
+        "officialName": "England National Team",
+        "slug": "england-national-team",
+        "abbreviation": "ENG",
+        "teamCountryCode": "ENG",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Germany",
+        "officialName": "Germany National Team",
+        "slug": "germany-national-team",
+        "abbreviation": "GER",
+        "teamCountryCode": "DEU",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 2,
+        "winner": null,
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "EURO QUALIFICATION",
+        "name": "Euro 2024 Qualifiers",
+        "ordering": 25
+      },
+      "group": null,
+      "originCompetitionId": "euro-qualifiers",
+      "originCompetitionName": "Euro 2024",
+      "sport": "football"
+    },
+    {
+      "id": 36,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "20:00:00",
+      "dateVenue": "2024-12-05",
+      "stadium": "Al Thumama Stadium",
+      "homeTeam": {
+        "name": "Qatar",
+        "officialName": "Qatar National Team",
+        "slug": "qatar-national-team",
+        "abbreviation": "QAT",
+        "teamCountryCode": "QAT",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Argentina",
+        "officialName": "Argentina National Team",
+        "slug": "argentina-national-team",
+        "abbreviation": "ARG",
+        "teamCountryCode": "ARG",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 3,
+        "winner": "Argentina",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "INTERNATIONAL FRIENDLY",
+        "name": "International Friendly Match",
+        "ordering": 26
+      },
+      "group": null,
+      "originCompetitionId": "international-friendly",
+      "originCompetitionName": "International Friendly",
+      "sport": "football"
+    },
+    {
+      "id": 37,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "11:30:00",
+      "dateVenue": "2024-12-10",
+      "stadium": "Tokyo Dome",
+      "homeTeam": {
+        "name": "Japan",
+        "officialName": "Japan National Team",
+        "slug": "japan-national-team",
+        "abbreviation": "JPN",
+        "teamCountryCode": "JPN",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "South Korea",
+        "officialName": "South Korea National Team",
+        "slug": "south-korea-national-team",
+        "abbreviation": "KOR",
+        "teamCountryCode": "KOR",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 1,
+        "winner": "South Korea",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "INTERNATIONAL FRIENDLY",
+        "name": "International Friendly Match",
+        "ordering": 27
+      },
+      "group": null,
+      "originCompetitionId": "international-friendly",
+      "originCompetitionName": "International Friendly",
+      "sport": "football"
+    },
+    {
+      "id": 38,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "22:00:00",
+      "dateVenue": "2024-12-12",
+      "stadium": "Madison Square Garden",
+      "homeTeam": {
+        "name": "New York Knicks",
+        "officialName": "New York Knicks",
+        "slug": "new-york-knicks",
+        "abbreviation": "NYK",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Los Angeles Lakers",
+        "officialName": "Los Angeles Lakers",
+        "slug": "los-angeles-lakers",
+        "abbreviation": "LAL",
+        "teamCountryCode": "USA",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 102,
+        "awayGoals": 110,
+        "winner": "Los Angeles Lakers",
+        "message": null,
+        "goals": [],
+        "yellowCards": [],
+        "secondYellowCards": [],
+        "directRedCards": []
+      },
+      "stage": {
+        "id": "NBA REGULAR SEASON",
+        "name": "NBA Regular Season",
+        "ordering": 28
+      },
+      "group": null,
+      "originCompetitionId": "nba",
+      "originCompetitionName": "NBA",
+      "sport": "basketball"
+    },
+    {
+      "id": 39,
+      "season": 2025,
+      "status": "scheduled",
+      "timeVenueUTC": "15:00:00",
+      "dateVenue": "2024-12-15",
+      "stadium": "Camp Nou",
+      "homeTeam": {
+        "name": "FC Barcelona",
+        "officialName": "Futbol Club Barcelona",
+        "slug": "fc-barcelona",
+        "abbreviation": "BAR",
+        "teamCountryCode": "ESP",
+        "stagePosition": null
+      },
+      "awayTeam": {
+        "name": "Real Madrid",
+        "officialName": "Real Madrid Club de Fútbol",
+        "slug": "real-madrid",
+        "abbreviation": "RM",
+        "teamCountryCode": "ESP",
+        "stagePosition": null
+      },
+      "result": {
+        "homeGoals": 3,
+        "awayGoals": 1,
+        "winner": "FC Barcelona",
+        "message": null,
+        "goals": [],
+        "yellowCards": ["Player1", "Player2"],
+        "secondYellowCards": ["Player3"],
+        "directRedCards": ["Player4"]
+      },
+      "stage": {
+        "id": "LA LIGA",
+        "name": "La Liga Match",
+        "ordering": 29
+      },
+      "group": null,
+      "originCompetitionId": "la-liga",
+      "originCompetitionName": "La Liga",
+      "sport": "football"
+    },
+    {
+      "matches": [
+        {
+          "id": 39,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "15:00:00",
+          "dateVenue": "2024-12-15",
+          "stadium": "Camp Nou",
+          "homeTeam": {
+            "name": "FC Barcelona",
+            "officialName": "Futbol Club Barcelona",
+            "slug": "fc-barcelona",
+            "abbreviation": "BAR",
+            "teamCountryCode": "ESP",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Real Madrid",
+            "officialName": "Real Madrid Club de Fútbol",
+            "slug": "real-madrid",
+            "abbreviation": "RM",
+            "teamCountryCode": "ESP",
+            "stagePosition": null
+          },
+          "result": {
+            "homeGoals": 3,
+            "awayGoals": 1,
+            "winner": "FC Barcelona",
+            "message": null,
+            "goals": [],
+            "yellowCards": ["Player1", "Player2"],
+            "secondYellowCards": ["Player3"],
+            "directRedCards": ["Player4"]
+          },
+          "stage": {
+            "id": "LA LIGA",
+            "name": "La Liga Match",
+            "ordering": 29
+          },
+          "group": null,
+          "originCompetitionId": "la-liga",
+          "originCompetitionName": "La Liga",
+          "sport": "football"
+        },
+        {
+          "id": 40,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "20:00:00",
+          "dateVenue": "2024-12-16",
+          "stadium": "Old Trafford",
+          "homeTeam": {
+            "name": "Manchester United",
+            "officialName": "Manchester United Football Club",
+            "slug": "manchester-united",
+            "abbreviation": "MANU",
+            "teamCountryCode": "ENG",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Arsenal",
+            "officialName": "Arsenal Football Club",
+            "slug": "arsenal",
+            "abbreviation": "ARS",
+            "teamCountryCode": "ENG",
+            "stagePosition": null
+          },
+          "result": {
+            "homeGoals": 2,
+            "awayGoals": 3,
+            "winner": "Arsenal",
+            "message": null,
+            "goals": [],
+            "yellowCards": ["Player5", "Player6"],
+            "secondYellowCards": ["Player7"],
+            "directRedCards": ["Player8"]
+          },
+          "stage": {
+            "id": "PREMIER LEAGUE",
+            "name": "Premier League Match",
+            "ordering": 30
+          },
+          "group": null,
+          "originCompetitionId": "premier-league",
+          "originCompetitionName": "Premier League",
+          "sport": "football"
+        },
+        {
+          "id": 41,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "19:30:00",
+          "dateVenue": "2024-12-17",
+          "stadium": "Allianz Arena",
+          "homeTeam": {
+            "name": "Bayern Munich",
+            "officialName": "FC Bayern Munich",
+            "slug": "bayern-munich",
+            "abbreviation": "BAY",
+            "teamCountryCode": "DEU",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Borussia Dortmund",
+            "officialName": "Borussia Dortmund",
+            "slug": "borussia-dortmund",
+            "abbreviation": "BVB",
+            "teamCountryCode": "DEU",
+            "stagePosition": null
+          },
+          "result": {
+            "homeGoals": 3,
+            "awayGoals": 0,
+            "winner": "Bayern Munich",
+            "message": null,
+            "goals": [],
+            "yellowCards": ["Player9", "Player10"],
+            "secondYellowCards": ["Player11"],
+            "directRedCards": ["Player12"]
+          },
+          "stage": {
+            "id": "BUNDESLIGA",
+            "name": "Bundesliga Match",
+            "ordering": 31
+          },
+          "group": null,
+          "originCompetitionId": "bundesliga",
+          "originCompetitionName": "Bundesliga",
+          "sport": "football"
+        },
+        {
+          "id": 42,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "21:00:00",
+          "dateVenue": "2024-12-18",
+          "stadium": "Santiago Bernabéu Stadium",
+          "homeTeam": {
+            "name": "Real Madrid",
+            "officialName": "Real Madrid Club de Fútbol",
+            "slug": "real-madrid",
+            "abbreviation": "RM",
+            "teamCountryCode": "ESP",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Atletico Madrid",
+            "officialName": "Club Atlético de Madrid",
+            "slug": "atletico-madrid",
+            "abbreviation": "ATM",
+            "teamCountryCode": "ESP",
+            "stagePosition": null
+          },
+          "result": {
+            "homeGoals": 1,
+            "awayGoals": 1,
+            "winner": null,
+            "message": null,
+            "goals": [],
+            "yellowCards": ["Player13", "Player14"],
+            "secondYellowCards": ["Player15"],
+            "directRedCards": ["Player16"]
+          },
+          "stage": {
+            "id": "LA LIGA",
+            "name": "La Liga Match",
+            "ordering": 32
+          },
+          "group": null,
+          "originCompetitionId": "la-liga",
+          "originCompetitionName": "La Liga",
+          "sport": "football"
+        },
+        {
+          "id": 43,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "22:00:00",
+          "dateVenue": "2024-12-19",
+          "stadium": "Stamford Bridge",
+          "homeTeam": {
+            "name": "Chelsea",
+            "officialName": "Chelsea Football Club",
+            "slug": "chelsea-fc",
+            "abbreviation": "CHE",
+            "teamCountryCode": "ENG",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Tottenham Hotspur",
+            "officialName": "Tottenham Hotspur Football Club",
+            "slug": "tottenham-hotspur",
+            "abbreviation": "TOT",
+            "teamCountryCode": "ENG",
+            "stagePosition": null
+          },
+          "result": {
+            "homeGoals": 2,
+            "awayGoals": 2,
+            "winner": null,
+            "message": null,
+            "goals": [],
+            "yellowCards": ["Player17", "Player18"],
+            "secondYellowCards": ["Player19"],
+            "directRedCards": ["Player20"]
+          },
+          "stage": {
+            "id": "PREMIER LEAGUE",
+            "name": "Premier League Match",
+            "ordering": 33
+          },
+          "group": null,
+          "originCompetitionId": "premier-league",
+          "originCompetitionName": "Premier League",
+          "sport": "football"
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "id": 39,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "15:00:00",
+          "dateVenue": "2024-12-15",
+          "stadium": "Camp Nou",
+          "homeTeam": {
+            "name": "FC Barcelona",
+            "officialName": "Futbol Club Barcelona",
+            "slug": "fc-barcelona",
+            "abbreviation": "BAR",
+            "teamCountryCode": "ESP",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Real Madrid",
+            "officialName": "Real Madrid Club de Fútbol",
+            "slug": "real-madrid",
+            "abbreviation": "RM",
+            "teamCountryCode": "ESP",
+            "stagePosition": null
+          },
+          "result": {
+            "homeGoals": 3,
+            "awayGoals": 1,
+            "winner": "FC Barcelona",
+            "message": null,
+            "goals": [],
+            "yellowCards": ["Player1", "Player2"],
+            "secondYellowCards": ["Player3"],
+            "directRedCards": ["Player4"]
+          },
+          "stage": {
+            "id": "LA LIGA",
+            "name": "La Liga Match",
+            "ordering": 29
+          },
+          "group": null,
+          "originCompetitionId": "la-liga",
+          "originCompetitionName": "La Liga",
+          "sport": "football"
+        },
+        {
+          "id": 40,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "20:00:00",
+          "dateVenue": "2024-12-16",
+          "stadium": "Staples Center",
+          "homeTeam": {
+            "name": "Los Angeles Lakers",
+            "officialName": "Los Angeles Lakers",
+            "slug": "lakers",
+            "abbreviation": "LAL",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Golden State Warriors",
+            "officialName": "Golden State Warriors",
+            "slug": "warriors",
+            "abbreviation": "GSW",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "result": {
+            "homePoints": 112,
+            "awayPoints": 104,
+            "winner": "Los Angeles Lakers",
+            "message": null,
+            "goals": [],
+            "yellowCards": [],
+            "secondYellowCards": [],
+            "directRedCards": []
+          },
+          "stage": {
+            "id": "NBA",
+            "name": "NBA Game",
+            "ordering": 30
+          },
+          "group": null,
+          "originCompetitionId": "nba",
+          "originCompetitionName": "NBA",
+          "sport": "basketball"
+        },
+        {
+          "id": 41,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "19:30:00",
+          "dateVenue": "2024-12-17",
+          "stadium": "Wimbledon Centre Court",
+          "homeTeam": {
+            "name": "Roger Federer",
+            "officialName": "Roger Federer",
+            "slug": "roger-federer",
+            "abbreviation": "FED",
+            "teamCountryCode": "CHE",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Rafael Nadal",
+            "officialName": "Rafael Nadal",
+            "slug": "rafael-nadal",
+            "abbreviation": "NAD",
+            "teamCountryCode": "ESP",
+            "stagePosition": null
+          },
+          "result": {
+            "homeSets": 3,
+            "awaySets": 2,
+            "winner": "Roger Federer",
+            "message": null,
+            "goals": [],
+            "yellowCards": [],
+            "secondYellowCards": [],
+            "directRedCards": []
+          },
+          "stage": {
+            "id": "WIMBLEDON",
+            "name": "Wimbledon Final",
+            "ordering": 31
+          },
+          "group": null,
+          "originCompetitionId": "wimbledon",
+          "originCompetitionName": "Wimbledon",
+          "sport": "tennis"
+        },
+        {
+          "id": 42,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "22:00:00",
+          "dateVenue": "2024-12-18",
+          "stadium": "MetLife Stadium",
+          "homeTeam": {
+            "name": "New York Giants",
+            "officialName": "New York Giants",
+            "slug": "ny-giants",
+            "abbreviation": "NYG",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Dallas Cowboys",
+            "officialName": "Dallas Cowboys",
+            "slug": "dallas-cowboys",
+            "abbreviation": "DAL",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "result": {
+            "homePoints": 24,
+            "awayPoints": 17,
+            "winner": "New York Giants",
+            "message": null,
+            "goals": [],
+            "yellowCards": [],
+            "secondYellowCards": [],
+            "directRedCards": []
+          },
+          "stage": {
+            "id": "NFL",
+            "name": "NFL Game",
+            "ordering": 32
+          },
+          "group": null,
+          "originCompetitionId": "nfl",
+          "originCompetitionName": "NFL",
+          "sport": "american football"
+        },
+        {
+          "id": 43,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "19:00:00",
+          "dateVenue": "2024-12-19",
+          "stadium": "Yankee Stadium",
+          "homeTeam": {
+            "name": "New York Yankees",
+            "officialName": "New York Yankees",
+            "slug": "ny-yankees",
+            "abbreviation": "NYY",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Boston Red Sox",
+            "officialName": "Boston Red Sox",
+            "slug": "boston-red-sox",
+            "abbreviation": "BOS",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "result": {
+            "homeRuns": 5,
+            "awayRuns": 4,
+            "winner": "New York Yankees",
+            "message": null,
+            "goals": [],
+            "yellowCards": [],
+            "secondYellowCards": [],
+            "directRedCards": []
+          },
+          "stage": {
+            "id": "MLB",
+            "name": "MLB Game",
+            "ordering": 33
+          },
+          "group": null,
+          "originCompetitionId": "mlb",
+          "originCompetitionName": "Major League Baseball",
+          "sport": "baseball"
+        }
+      ]
+    },
+    {
+      "matches": [
+        {
+          "id": 44,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "18:00:00",
+          "dateVenue": "2024-12-20",
+          "stadium": "Old Trafford",
+          "homeTeam": {
+            "name": "Manchester United",
+            "officialName": "Manchester United Football Club",
+            "slug": "manchester-united",
+            "abbreviation": "MANU",
+            "teamCountryCode": "ENG",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Liverpool FC",
+            "officialName": "Liverpool Football Club",
+            "slug": "liverpool-fc",
+            "abbreviation": "LIV",
+            "teamCountryCode": "ENG",
+            "stagePosition": null
+          },
+          "result": {
+            "homeGoals": 2,
+            "awayGoals": 2,
+            "winner": "Draw",
+            "message": null,
+            "goals": [
+              "Player1 (Manchester United)",
+              "Player2 (Manchester United)",
+              "Player3 (Liverpool)",
+              "Player4 (Liverpool)"
+            ],
+            "yellowCards": [
+              "Player5 (Manchester United)",
+              "Player6 (Liverpool)"
+            ],
+            "secondYellowCards": [],
+            "directRedCards": []
+          },
+          "stage": {
+            "id": "PREMIER LEAGUE",
+            "name": "Premier League Match",
+            "ordering": 34
+          },
+          "group": null,
+          "originCompetitionId": "premier-league",
+          "originCompetitionName": "Premier League",
+          "sport": "football"
+        },
+        {
+          "id": 45,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "22:00:00",
+          "dateVenue": "2024-12-21",
+          "stadium": "Barclays Center",
+          "homeTeam": {
+            "name": "Brooklyn Nets",
+            "officialName": "Brooklyn Nets",
+            "slug": "brooklyn-nets",
+            "abbreviation": "BKN",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Miami Heat",
+            "officialName": "Miami Heat",
+            "slug": "miami-heat",
+            "abbreviation": "MIA",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "result": {
+            "homePoints": 108,
+            "awayPoints": 101,
+            "winner": "Brooklyn Nets",
+            "message": null,
+            "goals": [],
+            "yellowCards": [],
+            "secondYellowCards": [],
+            "directRedCards": []
+          },
+          "stage": {
+            "id": "NBA",
+            "name": "NBA Game",
+            "ordering": 35
+          },
+          "group": null,
+          "originCompetitionId": "nba",
+          "originCompetitionName": "NBA",
+          "sport": "basketball"
+        },
+        {
+          "id": 46,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "15:00:00",
+          "dateVenue": "2024-12-22",
+          "stadium": "Rod Laver Arena",
+          "homeTeam": {
+            "name": "Novak Djokovic",
+            "officialName": "Novak Djokovic",
+            "slug": "novak-djokovic",
+            "abbreviation": "NVD",
+            "teamCountryCode": "SRB",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Andy Murray",
+            "officialName": "Andy Murray",
+            "slug": "andy-murray",
+            "abbreviation": "AM",
+            "teamCountryCode": "GBR",
+            "stagePosition": null
+          },
+          "result": {
+            "homeSets": 3,
+            "awaySets": 1,
+            "winner": "Novak Djokovic",
+            "message": null,
+            "goals": [],
+            "yellowCards": [],
+            "secondYellowCards": [],
+            "directRedCards": []
+          },
+          "stage": {
+            "id": "AUSTRALIAN OPEN",
+            "name": "Australian Open Quarterfinal",
+            "ordering": 36
+          },
+          "group": null,
+          "originCompetitionId": "australian-open",
+          "originCompetitionName": "Australian Open",
+          "sport": "tennis"
+        },
+        {
+          "id": 47,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "18:30:00",
+          "dateVenue": "2024-12-23",
+          "stadium": "Gillette Stadium",
+          "homeTeam": {
+            "name": "New England Patriots",
+            "officialName": "New England Patriots",
+            "slug": "new-england-patriots",
+            "abbreviation": "NEP",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Kansas City Chiefs",
+            "officialName": "Kansas City Chiefs",
+            "slug": "kansas-city-chiefs",
+            "abbreviation": "KC",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "result": {
+            "homePoints": 21,
+            "awayPoints": 28,
+            "winner": "Kansas City Chiefs",
+            "message": null,
+            "goals": [],
+            "yellowCards": [],
+            "secondYellowCards": [],
+            "directRedCards": []
+          },
+          "stage": {
+            "id": "NFL",
+            "name": "NFL Game",
+            "ordering": 37
+          },
+          "group": null,
+          "originCompetitionId": "nfl",
+          "originCompetitionName": "NFL",
+          "sport": "american football"
+        },
+        {
+          "id": 48,
+          "season": 2025,
+          "status": "scheduled",
+          "timeVenueUTC": "19:00:00",
+          "dateVenue": "2024-12-24",
+          "stadium": "Fenway Park",
+          "homeTeam": {
+            "name": "Boston Red Sox",
+            "officialName": "Boston Red Sox",
+            "slug": "boston-red-sox",
+            "abbreviation": "BOS",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "awayTeam": {
+            "name": "Chicago Cubs",
+            "officialName": "Chicago Cubs",
+            "slug": "chicago-cubs",
+            "abbreviation": "CHC",
+            "teamCountryCode": "USA",
+            "stagePosition": null
+          },
+          "result": {
+            "homeRuns": 7,
+            "awayRuns": 5,
+            "winner": "Boston Red Sox",
+            "message": null,
+            "goals": [],
+            "yellowCards": [],
+            "secondYellowCards": [],
+            "directRedCards": []
+          },
+          "stage": {
+            "id": "MLB",
+            "name": "MLB Game",
+            "ordering": 38
+          },
+          "group": null,
+          "originCompetitionId": "mlb",
+          "originCompetitionName": "Major League Baseball",
+          "sport": "baseball"
+        }
+      ]
+    }
+  ]
+}

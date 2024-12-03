@@ -1,0 +1,159 @@
+/* Container for event details */
+.event-detail-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.005);
+  box-shadow: inset 0px 4px 15px 5px rgba(255, 255, 255, 0.032);
+  align-content: baseline;
+  height: 540px;
+  border-radius: 12px;
+  margin-top: 40px;
+}
+
+/* Header section for event details */
+.event-detail-header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 4px 15px 5px rgba(255, 255, 255, 0.032);
+  color: rgb(232, 233, 241);
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.event-detail-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.event-detail-header p {
+  font-size: 1.1rem;
+}
+
+/* Event information display */
+.event-info {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Style for info cards within event-info */
+.event-info .info-card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 25px;
+  width: 48%;
+  font-size: 39px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for info cards */
+.event-info .info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Teams section layout */
+.teams {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Styling for SVG icons */
+svg {
+  color: white;
+}
+
+/* Styling for text within event details */
+#text {
+  color: white;
+}
+
+/* Material UI tabs button color */
+.MuiTabs-flexContainer {
+  button {
+    color: white !important;
+  }
+}
+
+/* Style for team cards */
+.team-card {
+  background-color: #ffffff;
+  padding: 25px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 48%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for team cards */
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Result section styling */
+.result {
+  color: white;
+  margin: 40px;
+  text-align: center;
+}
+
+.result h3 {
+  font-size: 1.8rem;
+  color: #1e3a8a; /* Dark blue for result */
+}
+
+.result p {
+  font-size: 1.3rem;
+}
+
+/* Stage and group info sections */
+.stage-info,
+.group-info {
+  margin-top: 40px;
+  background-color: #ffffff;
+  padding: 25px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.stage-info p,
+.group-info p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Button text color */
+button {
+  color: white;
+}
+
+/* Material UI tabs indicator color */
+.MuiTabs-indicator {
+  background-color: rgb(255, 0, 0) !important;
+}
+
+/* Footer section styling */
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Media query for responsiveness on smaller screens */
+@media screen and (max-width: 768px) {
+  .event-info .info-card,
+  .team-card {
+    width: 100%;
+  }
+}

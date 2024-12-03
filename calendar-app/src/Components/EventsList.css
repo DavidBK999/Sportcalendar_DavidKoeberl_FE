@@ -1,0 +1,9 @@
+.event-container {
+  justify-content: center;
+  width: 100%;
+}
+
+#events {
+  justify-self: center;
+  margin: auto;
+}
