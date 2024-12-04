@@ -39,9 +39,9 @@ Navigate to the project directory and install all necessary dependencies with np
 - cd calendar-app
 - npm install
 
-### 3. Start the Vite development server
+### 3. Start the server
 
-Start the Vite development server to run the app locally:
+Start the server to run the app locally:
 
 - npm run dev
 
