@@ -156,4 +156,24 @@ button {
   .team-card {
     width: 100%;
   }
+  .event-detail-container {
+    width: 80vw;
+  }
+  .container {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .event-info .info-card,
+  .team-card {
+    width: 100%;
+  }
+  .event-detail-container {
+    width: 80vw;
+    height: auto;
+  }
+  .container {
+    height: 100vmax;
+  }
 }

@@ -284,7 +284,7 @@
   align-items: center;
   row-gap: 2rem;
   top: 45%;
-  z-index: 999999;
+  z-index: 99999;
   height: auto;
   padding: 4rem 1rem;
   left: 50%;
@@ -481,7 +481,7 @@
   left: 50%;
   width: 100px;
   transform: translateX(-50%);
-  z-index: 9000000;
+  z-index: 999999;
 }
 
 /* Event action buttons */
